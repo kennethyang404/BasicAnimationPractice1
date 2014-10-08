@@ -149,7 +149,7 @@ function init(){
 
 function loop(){
     //ctx.clearRect(0, 0, width, height);
-    ctx.fillStyle = '#333';
+    ctx.fillStyle = '#3b5998';
     ctx.fillRect(0, 0, width, height);
 
     shape.update();
