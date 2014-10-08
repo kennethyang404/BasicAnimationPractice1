@@ -149,18 +149,10 @@ function init(){
 
 function loop(){
     //ctx.clearRect(0, 0, width, height);
-<<<<<<< HEAD
-    ctx.fillStyle = '#333';
-=======
     ctx.fillStyle = '#3b5998';
->>>>>>> gh-pages
     ctx.fillRect(0, 0, width, height);
 
     shape.update();
 
     requestAnimationFrame(loop);
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> gh-pages
